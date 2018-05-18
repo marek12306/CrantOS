@@ -1,4 +1,4 @@
-# Fake CrantOS
+# CrantOS
 An open source os created in command line
 
 # System is in development and is not working for now!
