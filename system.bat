@@ -31,18 +31,34 @@ IF /I '%INPUT%'=='2' GOTO exit
 cls
 title CrantOS C://
 
-echo Nothing is here :/
 echo You are in: C://
 echo.
-echo S - Shut Down (because nothing is here to do)
+echo 1 - Desktop
+echo.
+echo S - Shut Down
 
 SET INPUT=
 SET /P INPUT=-
 
 IF /I '%INPUT%'=='s' GOTO exit
+IF /I '%INPUT%'=='1' GOTO cdesktop
 
 :exit
 cls
-echo Press any key to shutdown system
+echo Press any key to turn off system
 pause>nul
 exit
+
+:cdesktop
+echo You are in: C://Desktop
+echo.
+echo Empty folder
+
+echo S - Shut Down
+echo B - Back to C://
+
+SET INPUT=
+SET /P INPUT=-
+
+IF /I '%INPUT%'=='s' GOTO exit
+IF /I '%INPUT%'=='b' GOTO desktop
