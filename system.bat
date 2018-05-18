@@ -50,6 +50,8 @@ pause>nul
 exit
 
 :cdesktop
+cls
+title CrantOS C://Desktop
 echo You are in: C://Desktop
 echo.
 echo Empty folder
