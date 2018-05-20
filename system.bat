@@ -34,6 +34,7 @@ title CrantOS C://
 echo You are in: C://
 echo.
 echo 1 - Desktop
+echo 2 - System
 echo.
 echo S - Shut Down
 
@@ -42,6 +43,7 @@ SET /P INPUT=-
 
 IF /I '%INPUT%'=='s' GOTO exit
 IF /I '%INPUT%'=='1' GOTO cdesktop
+IF /I '%INPUT%'=='2' GOTO csystem
 
 :exit
 cls
@@ -64,3 +66,41 @@ SET /P INPUT=-
 
 IF /I '%INPUT%'=='s' GOTO exit
 IF /I '%INPUT%'=='b' GOTO desktop
+
+:csystem
+cls
+title CrantOS C://System
+echo You are in: C://System
+echo.
+echo This directory is hidden for security purposes
+echo.
+echo B - Back to C://
+echo ======= or =======
+echo E - Go to settings
+echo S - Shut Down
+
+SET INPUT=
+SET /P INPUT=-
+
+IF /I '%INPUT%'=='s' GOTO exit
+IF /I '%INPUT%'=='b' GOTO desktop
+IF /I '%INPUT%'=='e' GOTO settings
+
+:settings
+echo.
+echo Not avaible yet
+goto csystem
+
+:cprograms
+cls
+title CrantOS C://Programs
+echo You are in: C://Programs
+echo.
+echo 1 - Settings
+echo.
+echo S - Shut Down
+echo B - Back to C://
+
+IF /I '%INPUT%'=='s' GOTO exit
+IF /I '%INPUT%'=='b' GOTO desktop
+IF /I '%INPUT%'=='e' GOTO settings
