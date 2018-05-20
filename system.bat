@@ -7,7 +7,7 @@ goto first
 cls
 title Please wait for updates
 echo Wait for updates, please.
-echo 10% of Pre-alpha is finished!
+echo 20% of Pre-alpha is finished!
 echo.
 echo Press any key to continue and exit
 pause>nul
@@ -35,6 +35,7 @@ echo You are in: C://
 echo.
 echo 1 - Desktop
 echo 2 - System
+echo 3 - Programs
 echo.
 echo S - Shut Down
 
@@ -44,6 +45,7 @@ SET /P INPUT=-
 IF /I '%INPUT%'=='s' GOTO exit
 IF /I '%INPUT%'=='1' GOTO cdesktop
 IF /I '%INPUT%'=='2' GOTO csystem
+IF /I '%INPUT%'=='3' GOTO cprograms
 
 :exit
 cls
