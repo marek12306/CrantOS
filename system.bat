@@ -7,7 +7,7 @@ goto first
 cls
 title Please wait for updates
 echo Wait for updates, please.
-echo 30% of Pre-alpha is finished!
+echo 40% of Pre-alpha is finished!
 echo.
 echo Press any key to continue and exit
 pause>nul
@@ -140,7 +140,7 @@ echo B - Close app
 SET INPUT=
 SET /P INPUT=-
 
-IF /I '%INPUT%'=='1' color 07 && goto settings
-IF /I '%INPUT%'=='2' color F0 && goto settings
-IF /I '%INPUT%'=='3' color B0 && goto settings
+IF /I '%INPUT%'=='1' color 07 && goto psettings
+IF /I '%INPUT%'=='2' color F0 && goto psettings
+IF /I '%INPUT%'=='3' color B0 && goto psettings
 IF /I '%INPUT%'=='b' goto cprograms
