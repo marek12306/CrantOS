@@ -118,9 +118,12 @@ echo.
 echo S - Shut Down
 echo B - Back to C://
 
+SET INPUT=
+SET /P INPUT=-
+
 IF /I '%INPUT%'=='s' GOTO exit
 IF /I '%INPUT%'=='b' GOTO desktop
-IF /I '%INPUT%'=='e' GOTO psettings
+IF /I '%INPUT%'=='1' GOTO psettings
 
 :psettings
 title CrantOS | Settings
