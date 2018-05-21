@@ -7,7 +7,7 @@ goto first
 cls
 title Please wait for updates
 echo Wait for updates, please.
-echo 20% of Pre-alpha is finished!
+echo 30% of Pre-alpha is finished!
 echo.
 echo Press any key to continue and exit
 pause>nul
@@ -89,9 +89,24 @@ IF /I '%INPUT%'=='b' GOTO desktop
 IF /I '%INPUT%'=='e' GOTO settings
 
 :settings
+title CrantOS | Settings
+cls
+echo Settings
 echo.
-echo Not avaible yet
-goto csystem
+echo ==== Themes ====
+echo 1 - Default
+echo 2 - White
+echo 3 - Sky
+echo ================
+echo B - Close app
+
+SET INPUT=
+SET /P INPUT=-
+
+IF /I '%INPUT%'=='1' color 07 && goto settings
+IF /I '%INPUT%'=='2' color F0 && goto settings
+IF /I '%INPUT%'=='3' color B0 && goto settings
+IF /I '%INPUT%'=='b' goto csystem
 
 :cprograms
 cls
@@ -105,4 +120,24 @@ echo B - Back to C://
 
 IF /I '%INPUT%'=='s' GOTO exit
 IF /I '%INPUT%'=='b' GOTO desktop
-IF /I '%INPUT%'=='e' GOTO settings
+IF /I '%INPUT%'=='e' GOTO psettings
+
+:psettings
+title CrantOS | Settings
+cls
+echo Settings
+echo.
+echo ==== Themes ====
+echo 1 - Default
+echo 2 - White
+echo 3 - Sky
+echo ================
+echo B - Close app
+
+SET INPUT=
+SET /P INPUT=-
+
+IF /I '%INPUT%'=='1' color 07 && goto settings
+IF /I '%INPUT%'=='2' color F0 && goto settings
+IF /I '%INPUT%'=='3' color B0 && goto settings
+IF /I '%INPUT%'=='b' goto cprograms
