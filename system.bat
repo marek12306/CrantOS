@@ -89,7 +89,7 @@ IF /I '%INPUT%'=='b' GOTO desktop
 IF /I '%INPUT%'=='e' GOTO settings
 
 :settings
-title CrantOS | Settings
+title CrantOS Settings
 cls
 echo Settings
 echo.
@@ -126,7 +126,7 @@ IF /I '%INPUT%'=='b' GOTO desktop
 IF /I '%INPUT%'=='1' GOTO psettings
 
 :psettings
-title CrantOS | Settings
+title CrantOS Settings
 cls
 echo Settings
 echo.
