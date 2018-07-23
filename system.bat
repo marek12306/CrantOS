@@ -1,17 +1,7 @@
 @echo off
 title CrantOS Starting...
 echo Starting
-goto first
-
-:first
-cls
-title CrantOS | Please wait for updates
-echo Wait for updates, please.
-echo 40% of Pre-alpha is finished!
-echo.
-echo Press any key to continue and exit
-pause>nul
-exit
+goto menu
 
 :menu
 cls
