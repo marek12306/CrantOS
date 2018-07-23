@@ -1,17 +1,7 @@
 @echo off
 title CrantOS Starting...
 echo Starting
-goto first
-
-:first
-cls
-title CrantOS | Please wait for updates
-echo Wait for updates, please.
-echo 40% of Pre-alpha is finished!
-echo.
-echo Press any key to continue and exit
-pause>nul
-exit
+goto menu
 
 :menu
 cls
@@ -109,6 +99,22 @@ IF /I '%INPUT%'=='1' color 07 && goto settings
 IF /I '%INPUT%'=='2' color F0 && goto settings
 IF /I '%INPUT%'=='3' color B0 && goto settings
 IF /I '%INPUT%'=='b' goto csystem
+IF /I '%INPUT%'=='secret' goto secretdebugmenu
+
+:secretdebugmenu
+cls
+title Welcome to CrantOS secret debug menu
+color 07
+echo 1 - Goto settings
+echo 2 - Goto C://
+echo 3 - Restart
+
+SET INPUT=
+SET /P INPUT=-
+
+IF /I '%INPUT%'=='1' goto settings
+IF /I '%INPUT%'=='2' goto desktop
+IF /I '%INPUT%'=='3' goto menu
 
 :cprograms
 cls
