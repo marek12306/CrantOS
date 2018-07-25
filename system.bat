@@ -5,7 +5,7 @@ goto menu
 
 :menu
 cls
-title CrantOS | Welcome to CrantOS, please log in!
+title CrantOS Welcome to CrantOS, please log in!
 echo Accounts will be added in future realase!
 echo.
 echo 1 - Log in
@@ -19,7 +19,7 @@ IF /I '%INPUT%'=='2' GOTO exit
 
 :desktop
 cls
-title CrantOS | C://
+title CrantOS C://
 
 echo You are in: C://
 echo.
@@ -47,7 +47,7 @@ exit
 
 :cdesktop
 cls
-title CrantOS | C://Desktop
+title CrantOS C://Desktop
 echo You are in: C://Desktop
 echo.
 echo Empty folder
@@ -63,7 +63,7 @@ IF /I '%INPUT%'=='b' GOTO desktop
 
 :csystem
 cls
-title CrantOS | C://System
+title CrantOS C://System
 echo You are in: C://System
 echo.
 echo This directory is hidden for security purposes
@@ -81,7 +81,7 @@ IF /I '%INPUT%'=='b' GOTO desktop
 IF /I '%INPUT%'=='e' GOTO settings
 
 :settings
-title CrantOS | Settings
+title CrantOS Settings
 cls
 echo Settings
 echo.
@@ -118,11 +118,11 @@ IF /I '%INPUT%'=='3' goto menu
 
 :cprograms
 cls
-title CrantOS | C://Programs
+title CrantOS C://Programs
 echo You are in: C://Programs
 echo.
 echo 1 - Settings
-echo 2 - Tic Tac Toe | Shortcut from C://Games
+echo 2 - Tic Tac Toe Shortcut from C://Games
 echo.
 echo S - Shut Down
 echo B - Back to C://
@@ -136,7 +136,7 @@ IF /I '%INPUT%'=='1' GOTO psettings
 IF /I '%INPUT%'=='2' GOTO BEGIN
 
 :psettings
-title CrantOS | Settings
+title CrantOS Settings
 cls
 echo Settings
 echo.
@@ -157,7 +157,7 @@ IF /I '%INPUT%'=='b' goto cprograms
 
 @echo off
 :games
-title CrantOS | C://Games
+title CrantOS C://Games
 cls
 echo You are in: C://Games
 echo.
@@ -176,7 +176,7 @@ IF /I '%INPUT%'=='1' GOTO BEGIN
 :BEGIN
   REM Skill level
   set sl=
-  title CrantOS | Running app: Tic Tac Toe
+  title CrantOS Running app: Tic Tac Toe
   cls
   echo                       Tic Tac Toe by Mac                            (Q to quit)
   echo.
