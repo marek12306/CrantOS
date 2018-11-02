@@ -1,0 +1,41 @@
+Przykład: [Oryginalny tekst] - [Przetłumaczony tekst]
+
+Starting - Uruchamianie
+Welcome to CrantOS, please log in! - Witaj w CrantOS, proszę zaloguj się!
+Log in - Zaloguj się
+Shut Down - 
+You are in: - Jesteś w:
+Desktop - Pulpit
+System - System
+Programs - Programy
+Games - Gry
+Press any key to turn off system - 
+Empty folder - Pusty Folder
+Folder - Folder
+Back to - Wróć do
+This directory is hidden for security purposes - 
+Go to settings - Przejdź do ustawień
+Settings - Ustawienia
+Themes - Motywy
+Default - Domyślny
+White - Biały
+Sky - Niebo
+Close app - Zamknij aplikację
+Welcome to CrantOS secret debug menu
+Restart - Zresetuj
+Go to - Idź do
+Tic Tac Toe - Kółko i krzyżyk
+Shortcut - Skrót
+Shortcut from - Skrót z
+Q to quit - Q aby wyjść
+Pick your skill level (press a number)
+Easy - Łatwy
+Medium - Średni
+Hard - Trudny
+You are the X player. - Jesteś krzyżykiem.
+Press the number where you want to put an X. - Naciśnij numer gdzie chcesz postawić krzyżyk.
+Skill level - 
+There are no moves left! - Nie ma więcej ruchów!
+Play again (Y,N)? - Chcesz zagrać ponownie (Y,N)?
+Sorry, You lose. - Sorka, Przegrałeś.
+You win! - Wygrałeś!
