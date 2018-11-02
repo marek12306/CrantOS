@@ -178,7 +178,7 @@ IF /I '%INPUT%'=='1' GOTO BEGIN
   set sl=
   title CrantOS Running app: Tic Tac Toe
   cls
-  echo                       Tic Tac Toe by Mac                            (Q to quit)
+  echo                       Tic Tac Toe                            (Q to quit)
   echo.
   echo.
   echo        Pick your skill level (press a number)
@@ -214,7 +214,7 @@ IF /I '%INPUT%'=='1' GOTO BEGIN
 
 :UPDATE
   cls
-  echo   (S to set skill level)       Tic Tac Toe by Mac                   (Q to quit)
+  echo   (S to set skill level)       Tic Tac Toe                   (Q to quit)
   echo.
   echo                               You are the X player. 
   echo                    Press the number where you want to put an X.     
