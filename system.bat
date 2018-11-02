@@ -41,7 +41,7 @@ IF /I '%INPUT%'=='4' GOTO games
 
 :exit
 cls
-echo Press any key to turn off system
+echo Press any key to shut down
 pause>nul
 exit
 
@@ -105,8 +105,8 @@ IF /I '%INPUT%'=='secret' goto secretdebugmenu
 cls
 title Welcome to CrantOS secret debug menu
 color 07
-echo 1 - Goto settings
-echo 2 - Goto C://
+echo 1 - Go to settings
+echo 2 - Go to C://
 echo 3 - Restart
 
 SET INPUT=
