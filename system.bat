@@ -1,6 +1,24 @@
 @echo off
 title CrantOS Starting...
 echo Starting
+goto config
+
+:config
+title Configuration
+echo Please choose your language
+echo 1 - English
+echo ? - Polish (Soon)
+pause > nul
+goto menu
+
+:tutorial
+title Configuration
+echo Do you need tutorial?
+echo Y - Yes        N - No
+goto tutorial2
+
+:tutorial2
+echo Tutorial isn't finished yet!
 goto menu
 
 :menu
