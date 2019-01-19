@@ -104,9 +104,11 @@ cls
 echo Settings
 echo.
 echo ==== Themes ====
-echo 1 - Default
-echo 2 - White
+echo 1 - Dark
+echo 2 - Light
 echo 3 - Sky
+echo 4 - Terminal
+echo 5 - Blue Screen
 echo ================
 echo B - Close app
 
@@ -116,6 +118,8 @@ SET /P INPUT=-
 IF /I '%INPUT%'=='1' color 07 && goto settings
 IF /I '%INPUT%'=='2' color F0 && goto settings
 IF /I '%INPUT%'=='3' color B0 && goto settings
+IF /I '%INPUT%'=='4' color 0A && goto settings
+IF /I '%INPUT%'=='5' color 97 && goto settings
 IF /I '%INPUT%'=='b' goto csystem
 IF /I '%INPUT%'=='secret' goto secretdebugmenu
 
