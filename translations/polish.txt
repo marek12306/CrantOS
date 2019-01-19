@@ -3,7 +3,7 @@ Przykład: [Oryginalny tekst] - [Przetłumaczony tekst]
 Starting - Uruchamianie
 Welcome to CrantOS, please log in! - Witaj w CrantOS, proszę zaloguj się!
 Log in - Zaloguj się
-Shut Down - 
+Shut Down - Zamknij system
 You are in: - Jesteś w:
 Desktop - Pulpit
 System - System
@@ -34,7 +34,7 @@ Medium - Średni
 Hard - Trudny
 You are the X player. - Jesteś krzyżykiem.
 Press the number where you want to put an X. - Naciśnij numer gdzie chcesz postawić krzyżyk.
-Skill level - 
+Skill level - Poziom umiejętności
 There are no moves left! - Nie ma więcej ruchów!
 Play again (Y,N)? - Chcesz zagrać ponownie (Y,N)?
 Sorry, You lose. - Sorka, Przegrałeś.
