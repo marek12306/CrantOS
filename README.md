@@ -16,3 +16,6 @@ Yes it is!
 ## CrantOS is a virus!
 No, it isn't.
 Some antiviruses might detect it as a virus. Just ignore that.
+
+## I want to submit translation
+Just create pull request!
