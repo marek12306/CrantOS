@@ -1,21 +1,15 @@
 # CrantOS
-Operating system made in batch!
+Operating system made in batch (yes you heard it right)!
 
 ## How to install it?
 Just download it and run `CrantOS.bat`.
 
-## How many features are in there?
-There is a few features in there, but in the future we plan to add it more.
-
-## Is there an AppStore for apps, games, commands?
-We will add it in the future :)
-
 ## Is CrantOS open source
-Yes it is!
+As you can see it is!
 
 ## CrantOS is a virus!
 No, it isn't.
-Some antiviruses might detect CrantOS as a virus. Just ignore that.
+Some antiviruses may detect CrantOS as a virus. Just ignore that.
 
 ## I want to submit translation
 Just create pull request!
